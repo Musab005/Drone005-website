@@ -1,0 +1,334 @@
+/* main.html */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #CFD8DC;   
+}
+
+.center_content {
+    width: 800px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+#main_page_header {
+    align-content: center;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 5px black;
+    padding: 10px;
+    background-color: #3CF79B;
+    color: black;
+    text-align: center;
+}
+
+header h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    letter-spacing: -5px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+#body_heading {
+    font-family: serif;
+    font-size: 30px;
+    border-bottom: solid 3px black;
+    width: 480px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.body_tagline {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.links {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 0.5px #333;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer {
+    font-size: 15px;
+}
+
+
+a {
+    text-transform: capitalize
+}
+
+a:link {
+    color:forestgreen
+}
+
+a:visited {
+    color:forestgreen
+}
+
+a:hover {
+    color:black
+}
+
+a:active {
+    color:forestgreen
+}
+
+
+
+/* Contact_us.html */
+
+#contact_page_body {
+    width: 800px;
+    margin: 0 auto;
+    background: white;
+}
+
+fieldset {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: burlywood;
+    border: solid 1px burlywood;
+}
+
+#contact_page_header {
+    align-content: center;
+    margin: 50px;
+    border: solid 5px black;
+    padding: 10px;
+    background-color: beige;
+    color: black;
+    text-align: center;
+}
+
+legend {
+    padding: 10px;
+    border: solid 1px burlywood;
+    color: black;
+    background-color: white;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: serif;
+}
+
+input {
+    margin-left: 10px;
+    padding: 5px;
+    border: solid 1px black;
+    display: block;
+    width: 50%;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+input[type="color"] {
+    width: 50px;
+    height: 50px
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 12px;
+    display: inline;
+}
+
+#submit_button {
+    width: 30%;
+}
+
+.label {
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: beige;
+    display: block;
+    width: 50%;
+    padding: 5px;
+    text-transform: capitalize
+}
+
+#secondary_contact span {
+    background: 0px;
+    display: inline;
+}
+
+#secondary_contact label {
+    margin-left: 10px;
+    font-size: 20px;
+    display: block;
+    background: beige;
+    width: 50%;
+    padding: 5px;
+}
+
+#tertiary_contact label {
+    margin-left: 10px;
+    font-size: 20px;
+    background: beige;
+    width: 50%;
+    display: block;
+    padding: 5px;
+}
+
+textarea {
+    margin-left: 10px;
+    width: 50%;
+    padding: 5px;
+    resize: none;
+}
+
+input[type="submit"] {
+    margin-bottom: 20px;
+    font-size: 20px;
+    background: beige;
+    display: block;
+    border: solid 2px black;
+    text-transform: capitalize;
+    width: 60%;
+}
+
+input[type="submit"]:hover {
+    cursor:pointer;
+    border-color: white;
+}
+
+input[type="submit"]:active {
+    border-color: black;
+}
+
+#primary_contact {
+    border-bottom: dashed 0.2px black;
+}
+
+#secondary_contact {
+    padding-bottom: 20px;
+    border-bottom: dashed 0.2px black;
+}
+
+input[type="number"] {
+    margin-bottom:20px;
+}
+
+
+/* About_us.html */
+
+#About_us_header {
+    color:dodgerblue;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    padding-bottom: 70px;
+    border-bottom: solid 1px black;
+    font-family: sans-serif;
+}
+
+#About_us_body {
+    width: 800px;
+    margin: 0 auto;
+    background-color:floralwhite
+}
+
+#About_us_content {
+    text-align:center;
+    font-size: 20px;
+    font-family:serif;
+}
+
+#About_us_content span {
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+/* Our_products.html */
+
+#Our_products_body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #63F6A5;
+}
+
+#Our_products_header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 30px;
+}
+
+dl {
+    display:inline-block;
+}
+
+img {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+#Our_products_body h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.description {
+    font-size: 20px;
+    display: block;
+}
+
+dd {
+    margin-bottom: 10px;
+}
+
+dt {
+    text-decoration: underline
+}
+
+#image1 {
+    padding-right: 90px;
+    border-right: solid 1px black;
+}
+
+#container2 {
+    text-align: right;
+    margin-left: 80px;
+}
+
+#description2 {
+    width: 400px;
+    text-align: left;
+    font-size: 20px;
+    display: inline-block;
+}
+
+#description2 dd {
+    text-align:left;
+}
+
+#list2 {
+    font-size: 20px;
+    display: inline-block;
+    padding-right: 140px;
+}
+
+
+
+
+
