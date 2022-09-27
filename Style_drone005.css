@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #CFD8DC;   
+    background-color: floralwhite;   
 }
 
 .center_content {
@@ -23,7 +23,7 @@ body {
     margin-bottom: 20px;
     border: solid 5px black;
     padding: 10px;
-    background-color: #3CF79B;
+    background-color: navajowhite;
     color: black;
     text-align: center;
 }
@@ -72,11 +72,11 @@ a {
 }
 
 a:link {
-    color:forestgreen
+    color:saddlebrown;
 }
 
 a:visited {
-    color:forestgreen
+    color:rosybrown;
 }
 
 a:hover {
@@ -84,7 +84,7 @@ a:hover {
 }
 
 a:active {
-    color:forestgreen
+    color:rosybrown;
 }
 
 
@@ -93,15 +93,15 @@ a:active {
 
 #contact_page_body {
     width: 800px;
-    margin: 0 auto;
-    background: white;
+    margin: 0px auto;
+    background-color:floralwhite;
 }
 
 fieldset {
     margin-top: 100px;
     margin-bottom: 100px;
-    background-color: burlywood;
-    border: solid 1px burlywood;
+    background-color:white;
+    border: solid 1px black;
 }
 
 #contact_page_header {
@@ -116,11 +116,11 @@ fieldset {
 
 legend {
     padding: 10px;
-    border: solid 1px burlywood;
+    border: solid 1px black;
     color: black;
     background-color: white;
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: serif;
 }
 
@@ -152,7 +152,7 @@ input[type="radio"] {
 
 .label {
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: sans-serif;
     background-color: beige;
     display: block;
@@ -167,8 +167,9 @@ input[type="radio"] {
 }
 
 #secondary_contact label {
+    font-family: sans-serif;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 15px;
     display: block;
     background: beige;
     width: 50%;
@@ -176,8 +177,9 @@ input[type="radio"] {
 }
 
 #tertiary_contact label {
+    font-family: sans-serif;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 15px;
     background: beige;
     width: 50%;
     display: block;
@@ -193,7 +195,7 @@ textarea {
 
 input[type="submit"] {
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 15px;
     background: beige;
     display: block;
     border: solid 2px black;
@@ -227,7 +229,8 @@ input[type="number"] {
 /* About_us.html */
 
 #About_us_header {
-    color:dodgerblue;
+    color:saddlebrown;
+    background-color: floralwhite;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -240,13 +243,15 @@ input[type="number"] {
 #About_us_body {
     width: 800px;
     margin: 0 auto;
-    background-color:floralwhite
+    background-color:floralwhite;
 }
 
 #About_us_content {
+    background-color: floralwhite;
     text-align:center;
     font-size: 20px;
     font-family:serif;
+    color: rosybrown;
 }
 
 #About_us_content span {
@@ -262,7 +267,7 @@ input[type="number"] {
 #Our_products_body {
     width: 1000px;
     margin: 0 auto;
-    background-color: #63F6A5;
+    background-color: floralwhite;
 }
 
 #Our_products_header {
